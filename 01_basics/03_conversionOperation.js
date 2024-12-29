@@ -32,8 +32,11 @@ null => 0
 
 // conversion into the boolean
 let isLoggedIn = 1;
+let isLoggedIn1 = 2;
+let booleanIsLoggedIn1 = Boolean(isLoggedIn1)
 let booleanIsLoggedIn = Boolean(isLoggedIn);
 // console.log(booleanIsLoggedIn);
+console.log(booleanIsLoggedIn1)
 
 //notes
 /*
